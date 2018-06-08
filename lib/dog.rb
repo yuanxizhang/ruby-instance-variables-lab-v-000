@@ -7,3 +7,8 @@ class Dog
     @name
   end
 end
+
+lassie = Dog.new_name
+lassie.name = "Lassie"
+
+lassie.name
